@@ -2,9 +2,9 @@
 
 ![](./particle.jpg)
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+This is a simple resume website that is using Jekyll particle theme. 
 
-The Theme features:
+The project features:
 
 - Gulp
 - SASS
@@ -59,10 +59,6 @@ In order to compile the assets and run Jekyll on local you need to follow those 
 - Install [Yarn](https://yarnpkg.com/): `npm install -g yarn`
 - Install dependencies: `yarn`
 - Run: `gulp`
-
-## Questions
-
-Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
 
 ## License
 
