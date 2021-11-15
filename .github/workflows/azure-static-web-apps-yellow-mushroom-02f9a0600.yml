@@ -19,20 +19,20 @@ jobs:
         with:
           submodules: true
           
-      - name: Set up Ruby
-        # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
-        # change this to (see https://github.com/ruby/setup-ruby#versioning):
-        # uses: ruby/setup-ruby@v1
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6
-          bundler-cache: true
+      # - name: Set up Ruby
+      #   # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+      #   # change this to (see https://github.com/ruby/setup-ruby#versioning):
+      #   # uses: ruby/setup-ruby@v1
+      #   uses: ruby/setup-ruby@v1
+      #   with:
+      #     ruby-version: 2.6
+      #     bundler-cache: true
 
-      # - name: Install dependencies
-      #   run: bundle exec rake
+      # # - name: Install dependencies
+      # #   run: bundle exec rake
 
-      - name: Jekyll build
-        run: jekyll build
+      # - name: Jekyll build
+      #   run: jekyll build
 
       - name: Build And Deploy
         id: builddeploy
